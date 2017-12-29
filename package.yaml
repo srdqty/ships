@@ -1,0 +1,49 @@
+name:                ships
+version:             0.1.0.0
+github:              srdqty/ships
+license:             BSD3
+author:              Sophia Donataccio
+maintainer:          srdqty@gmail.com
+copyright:           Copyright (c) 2017 Sophia Donataccio
+
+extra-source-files:
+  - README.md
+  - ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:
+# description:
+# category:            Web
+
+dependencies:
+  - base >= 4.7 && < 5
+
+library:
+  source-dirs: src
+  ghc-options:
+    - -Wall
+
+executables:
+  ships:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+      - -Wall
+    dependencies:
+      - ships
+
+tests:
+  ships-test:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+      - -threaded
+      - -rtsopts
+      - -with-rtsopts=-N
+      - -Wall
+    dependencies:
+      - ships
+      - hspec
