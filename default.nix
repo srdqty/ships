@@ -1,4 +1,4 @@
-{ mkDerivation, base, binary, bytestring, hspec
+{ mkDerivation, base, binary, bytestring, gitrev, hspec
 , optparse-applicative, stdenv
 }:
 mkDerivation {
@@ -7,15 +7,11 @@ mkDerivation {
   src = ./.;
   isLibrary = true;
   isExecutable = true;
-  libraryHaskellDepends = [
-    base binary bytestring optparse-applicative
-  ];
+  libraryHaskellDepends = [ base binary bytestring ];
   executableHaskellDepends = [
-    base binary bytestring optparse-applicative
+    base binary bytestring gitrev optparse-applicative
   ];
-  testHaskellDepends = [
-    base binary bytestring hspec optparse-applicative
-  ];
+  testHaskellDepends = [ base binary bytestring hspec ];
   homepage = "https://github.com/srdqty/ships#readme";
   license = stdenv.lib.licenses.bsd3;
 }

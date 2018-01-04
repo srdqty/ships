@@ -1,0 +1,309 @@
+Princess Minerva English Language Patch V1.02
+
+
+Introduction:
+
+
+
+	Japanese Developer:				Riverhill Software
+	Japanese Publisher:				Vic Tokai Corporation
+	Japanese Release:				June 23, 1995
+	English Patch Production:			Dynamic-Designs
+
+
+
+Dynamic-Designs Patch History:
+
+
+
+	V1.00:  Initial Dynamic-Designs Release:	December 23, 2017
+        V1.01:  Release to fix intro overruns:		December 24, 2017
+        V1.02:  Release to fix enemy names in combat:   December 26, 2017
+
+
+
+Dynamic-Designs Production Credits:
+
+
+
+	Project Coordination:				Taskforce
+	Hacking/Tools/Bug Fixing:			Bongo`
+        Assembly: 					Bongo`
+	Translation:					Eien ni Hen
+	English Graphics:				Taskforce
+	Script Writing:					Wildbill
+        Script Writing Support:				Taskforce and Draken
+	Beta Testing:					Draken, SylarDean, MariusB and hausen
+	Splash:						Taskforce
+
+
+
+NOT FOR SALE INFO
+
+This game in English or patch to make it English is
+NOT for sale under any circumstances!  If you paid
+for this game in any way, including in a cartridge,
+demand your money back immediately!  File a complaint
+with your credit card company and/or paypal as well!
+Especially if you got this game in cart form!
+
+
+
+Game Description:
+
+Description Partially From Moby-Games: http://www.mobygames.com/game/princess-minerva
+
+Princess Minerva's game's intro starts when Minerva gets bored one day and decides she is going to
+form a group of bodyguards because it seems like it would be a fun thing to do.  So, she does
+exactly that.  She forms a group of bodyguards from various ladies of differing backgrounds and
+hopes to see them in action fighting very soon. It isn't long until she gets her wish either.
+Bluemoris, her trusted servant and aide, doesn't like the idea much but is powerless to stop her.
+
+The gameplay portion begins when the girls are already united.  Dynastar tells her old master she
+must leave him and sets the stage for her plans to attack the country of Whistler and its territories.
+Then the game switches to Minerva and her party doing training in (aka lazying about) the castle's heated
+pool.  As Minerva laments the fact she hasn't had a chance to see her bodyguards in action, one of Dynastar's
+minions attacks them and sets the stage for the rest of the game.  Minerva gets her wish to see just
+what her team of lovely ladies is capable of as the team sets off to stop Dynastar and her dastardly
+plans.
+
+Your party contains nine girls, each one with various statistics and magic spells.  The large party
+is divided into three smaller ones, and you switch between them at random while participating in
+random battles.  You are however allowed to choose who fights when fighting bosses. The combat is
+turn-based and is viewed from a top-down perspective, like the locations you visit. You travel on
+the overworld map, visit towns, and descend into dungeons. During combat the three active girls in
+your party can also unite to perform combo attacks. 
+
+Princess Minerva also inspired anime, mange and light novel franchises.  The anime has been released
+in both English-subbed and English-dubbed versions.  The manga and Light Novels have not seen releases
+outside of Japan.  It should be noted that the anime, manga and games have unique stories that do not
+cross over.
+
+
+
+Special features of this game.
+
+This game has quite a few fairly unique features.  
+
+1. You may save anywhere unlike most RPG's.  However, most people overlook the way to do it.  You
+   have a magic spell in Arts named Record.  This spell while costing a bit of MP to cast allows you
+   the ability to save anywhere in the game.  Pretty handy.
+
+2: You have a nine member squid divided into three teams which all get used during combat. Most of the
+   time they're chosen at random but all team members must fight.  The exception to this rule is boss 
+   fights.  During boss fights you either chose the team or in some cases even the members which are
+   sent to battle.
+
+3: Experience gets divided up into 5 types of categories.  These are Fighter, Fencer, Mage, Elf and
+   Cleric.  These have a percentage that determines how much of your experience goes where.  When
+   one of these categories reaches 100 points, you gain 1 overall level.  And that category also
+   gains 1 level.  The total of all 5 categories makes up your overall level.
+
+4: There are three types of Arts.  And each has its own allotted points to use. Most games you just
+   have HP and MP to worry about.  But Princess Minerva has 3 different MP-like stats:  MP, TP and
+   SP.  MP is Magic Points and is used for Magic, Cleric and Elven skills.  TP is Technique points
+   and is used for skills associated with Fighters. SP is Skill points and is used for fencer
+   skills.  This is why we call them Arts and not Magic.  It was the most appropriate term.
+
+5. Your party is all Female.  The main enemy force is also all Female.  Now similar to what our
+   translator Eien ni Hen said at one time, we're not sure exactly what audience they had in mind
+   while making this game.  See, it has the whole girl power thing going for it but it also has a
+   lot of things associated with the younger male demographic as well. Lots of breast jokes and the
+   like. This does help it appeal to more fans.  It can also turn some off.  I will tell you there
+   is nothing particularly vulgar in the game. Just a lot of teasing banter that stays fairly clean.
+   We quite enjoyed it and we hope you do as well.
+
+6. Once you've finished a chapter, you cannot backtrack to that chapter again.  Please make sure
+   you've done everything in that chapter before you move on.
+
+7. You may visit several towns at the start of chapters.  And dialog will change in those towns once
+   you've progressed the story.  Mostly this isn't important dialog but I just want people to be
+   aware that this is the case.
+
+8. All equippable armor has an image of the girls wearing it if you care for that sort of thing.
+
+
+
+Fixed bugs from the original game
+
+1. In two areas of the game.  Several monsters had a major bug that let them swap names and get a
+   new color pallette when you selected them after your first time.  Bongo` has squashed this bug
+   and it no longer happens in our patch.
+
+
+
+Bugs still left from the original game that won't be fixed
+
+1. There is a REALLY nasty bug that if you hit start too quickly, the load/new game screen will not
+   show up and the game will freeze at a black screen.  This is even worse on game resets as it can
+   happen even if you don't hit start at all.  Just reset the game until you get the load/new game
+   screen. 
+
+2. The wind tower name keeps popping up after battles when you are on level one of the wind tower.  
+
+3. If you try to buy something that you can't afford multiple times very quickly, the bought sound
+   effect will sometimes play instead of the not enough money sound effect.  However, you still do
+   not actually get the item even if the wrong sound effect plays.
+
+4. Goddess Tear is supposed to give you 80 MP, TP and SP both inside of and outside of battle.  The
+   description in the Japanese game also says it should, however, this item is messed up and only 
+   delivers the MP portion while in battle.  You do get all three if you use it outside of battle though.
+   Our description was changed to reflect the bug.
+
+5. The game has multiple issues with animation at times.  Putting them in improper places.  This can
+   happen on both monsters and players.  Including misplacing the highlight line in the menu as a player
+   is healing another player (not during the selection phase, just during the use animation.)
+
+6. At one point in the game you can repeat a certain quest involving a letter over (but you do not have to).
+   The quest resets after you've delivered the letter.  And you may pick up the letter and do it again.
+   There is absolutely no need to repeat this, we just wanted everyone to know it was possible.
+
+7. Sphinx Quiz game.  During the first round, if you get all answers wrong, the game will tell you that you can
+   take all the treasure, even though it won't let you take any.  After the first round the game behaves properly.
+
+8. And finally, there are areas where you can step on wall tiles as the movable path overlaps the wall tiles now and
+   then.  It doesn't happen often, but it is there.  This happens in many RPG's though.
+
+We're not sure how this game ever got released with the amount of bugs it contained, but otherwise
+its a pretty good game and we tried to squash as many of them as we could!  Unfortunately, do to 
+the lousy programming in the game, only one was able to be squashed.
+
+
+
+Production and Testing:
+
+
+This game's production unfortunately took far longer than we had hoped.  Taskforce asked if we might
+want to tackle this game as he played a bit of it and liked the mechanics.  Bongo` had a look and
+decided he'd give hacking it a shot.  Sometime later we had a script dump in hand with special
+assists getting the table created by Filler.  Eien ni Hen came along and agreed to translate it
+after that.  Then things slowed.  Taskforce's time got limited, and it took a long while to get the
+initial work on the game done.  Once he finally finished that, he passed it off to Wildbill for
+writing, but unfortunately Wildbill's time also became quite limited as well.  Sadly, this caused
+years of delay to happen, and the game has now taken around seven years to reach completion.  
+
+Translations are a big bottleneck to releasing games, and I'd personally really like to give Eien ni
+Hen a lot of thanks for jumping on this and knocking it out as quickly as she did.  I'd also like to
+apologize to her that it has taken us this long to get it to this point.  I hope you didn't completely
+give up on us getting it done.
+
+Special thanks goes to Bongo` for going above and beyond on assembly work by fixing problems in the
+original game.  Every problem was investigate whether it could be fixed or not.  He did an excellent
+job!
+
+Finally, I'd also like to thank Bongo`, Filler, Draken, Wildbill, my beta testers and all the guys
+at Dynamic-Designs (including the forum users) for putting up with me while I got this game done.
+Thanks for helping me get this game to completion.  
+
+And that brings me to my final thoughts.  Before anyone brings it up elsewhere.  I will tell you;
+yes, this game has altered non-important dialog throughout.  The reason for this is simple.  50% or
+more of the non-important dialog was just dry repeated text over and over and OVER! I wasn't sure
+how many times a game could say the same thing, and then I found Princess Minerva. You can only read
+"Have you heard anything about monster girls roaming around?" so many times.  And this game repeated
+it at least 5 times (usually more) in every single town in the game.  I wish I was kidding you about
+that, but that is the honest truth.  We hope you enjoy the humor we tried to inject to liven the
+game up in those cases. 
+
+
+-Taskforce-
+
+
+Patching:
+
+Contained within this archive is an IPS (international patching system) file or a patch file in another
+format for the end user's convenience that when used in conjunction with a ROM file will make the
+game playable in English.
+
+Do note that this patch is a result of countless hours of love and labor. Hence, they are not meant
+to be sold at any price under any circumstance, be it in digital form or burnt into a donor cart's
+ROM chip.
+
+To patch the ROM file, one needs to procure a patcher for their preferred format, a widely available
+class of programs, many of which can be found at http://www.romhacking.net/ for one source.  A few
+can even be found on our download page for your convenience at
+http://www.dynamic-designs.us/downloads.shtml.  Look at the bottom under utilities.  We did not make
+these utilities, we just provide them for your convenience.
+
+At some point, ROM sites may upload pre-patched ROMs of our Princess Minerva translation. Obviously,
+Dynamic Designs cannot endorse playing these versions, nor will we support resolution of any
+associated problems. Moreover, pre-patched ROMs may float around the web for years.  Only by
+downloading patches containing just our original work from D-D's web site may gamers obtain
+revisions to these patches - if any - and take advantage of possible bug-fixes and corrections.
+
+Below is the information pertaining to the ROM file our patch requires, according to Nach's SNES ROM
+Tools:
+
+
+
+
+
+
+---------------------Internal ROM Info----------------------
+       File: Princess Minerva.smc
+       Name: PRINCESS MINERVA         Company: Vic Tokai Inc.
+     Header: None                        Bank: LoROM
+Interleaved: None                        SRAM: 64 Kb
+       Type: Normal + Batt                ROM: 16 Mb
+    Country: Japan                      Video: NTSC
+  ROM Speed: 120ns (FastROM)         Revision: 1.0
+   Checksum: Good 0xE28B            Game Code: AVAJ
+---------------------------Hashes---------------------------
+      CRC32: 213368D5
+        MD5: 87ED5084BCC4130099543B467E0EE54F
+--------------------------Database--------------------------
+       Name: Princess Minerva
+    Country: Japan                   Revision: 1.0
+     Port 1: Gamepad                   Port 2: Gamepad
+    Genre 1: RPG                      Genre 2: Unknown
+
+
+**Also take SPECIAL NOTE that the original rom lacks a header.  You may have to remove the header
+from your ROM file, but don't worry as there are a variety of programs that do this, such as
+SNESTool, Smile, Toolbox, etc.  
+
+
+
+Size before patching: 2.00 MB (2,097,152 bytes)
+
+
+
+Size after patching: 3.00 MB (3,145,728 bytes)
+
+
+Alternatively, most emulators support a feature called soft patching, which keeps the ROM file
+intact, merging the patch data only during run time. To make use of it, make sure both the ROM file
+and the IPS are in the same directory as your emulator of choice and have the same name, but not the
+same extension. Do note that this is case-sensitive.  (Also, do note this soft patching is only
+available using the IPS patch file, and may NOT work with the other patch file formats.)
+
+
+e.g:  Princess_Minerva.smc and Princess_Minerva.ips will trigger soft patching at the emulator's run
+time.
+
+
+
+
+
+
+Emulator Compatibility:
+
+
+The game behaves itself properly in a wide range of emulators such as ZSNES, SnesGT, Mednafen,
+SNES9X and Higan/BSNES.
+
+
+
+
+
+Special Thanks:
+
+
+Without these people, it just wouldn't have been possible or fun: All of the great staff at D-D.
+Eien ni Hen for translating the game, Bongo` for hacking, Wildbill for writing and putting up with
+me as I  asked for writing alterations and of course the rest of the D-D forum community!
+
+
+Dedicated to the Memory of Bo Bankson (aks Postman77)
+
+
+Readme 2017 Dynamic-Designs

@@ -19,7 +19,7 @@ dependencies:
   - base >= 4.7 && < 5
   - binary
   - bytestring
-  - optparse-applicative
+
 
 library:
   source-dirs: src
@@ -37,6 +37,8 @@ executables:
       - -Wall
     dependencies:
       - ships
+      - optparse-applicative
+      - gitrev
 
 tests:
   ships-test:

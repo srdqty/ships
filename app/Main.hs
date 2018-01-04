@@ -1,14 +1,22 @@
+{-# LANGUAGE TemplateHaskell #-}
+
 module Main where
 
-import System.Environment (getArgs)
-import Data.Binary (decodeFile)
-import qualified Data.ByteString.Lazy as L (readFile, putStr)
-import Data.Binary.IPS (IPS, patch)
+-------------------------------------------------------------------------------
+import Data.Version (showVersion)
+
+-------------------------------------------------------------------------------
+import Development.GitRev (gitHash)
+import Paths_ships (version)
+
+-------------------------------------------------------------------------------
+import CommandLineParser
+import Data.Binary.IPS (patch)
 
 -------------------------------------------------------------------------------
 main :: IO ()
 main = do
-    [ipsFilename, inFilename] <- getArgs
-    ips <- decodeFile ipsFilename :: IO IPS
-    inData <- L.readFile inFilename
-    L.putStr (patch ips inData)
+    options <- parseCommandLine (showVersion version) $(gitHash)
+    ips <- getIPS options
+    inData <- getInput options
+    putOutput options (patch ips inData)

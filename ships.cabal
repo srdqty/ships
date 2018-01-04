@@ -29,7 +29,6 @@ library
       base >= 4.7 && < 5
     , binary
     , bytestring
-    , optparse-applicative
   exposed-modules:
       Data.Binary.IPS
   other-modules:
@@ -45,8 +44,11 @@ executable ships
       base >= 4.7 && < 5
     , binary
     , bytestring
-    , optparse-applicative
     , ships
+    , optparse-applicative
+    , gitrev
+  other-modules:
+      CommandLineParser
   default-language: Haskell2010
 
 test-suite ships-test
@@ -59,7 +61,6 @@ test-suite ships-test
       base >= 4.7 && < 5
     , binary
     , bytestring
-    , optparse-applicative
     , ships
     , hspec
   default-language: Haskell2010
