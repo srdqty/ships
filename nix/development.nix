@@ -14,6 +14,7 @@ let
     self.cabal-install
     self.cabal2nix
     self.hpack
+    self.haddock
   ]);
 in
   haskellPackages.ships.env.overrideAttrs (old: rec {
